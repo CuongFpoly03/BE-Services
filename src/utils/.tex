@@ -1,0 +1,13 @@
+Thư mục utils thường được sử dụng để chứa các tiện ích (utilities) hoặc hàm tiện ích (utility functions) trong một dự án phần mềm.
+Các tiện ích này thường được thiết kế để cung cấp các chức năng hỗ trợ chung, giúp tăng cường khả năng đọc, bảo trì và tái sử dụng
+mã nguồn
+
+AccessToken:
+Mục Đích: Là một loại token được sử dụng để xác thực người dùng và cung cấp quyền truy cập cho họ. AccessToken thường có thời hạn giới
+hạn và được sử dụng để gửi yêu cầu từ phía client đến server khi cần truy cập các nguồn tài nguyên bảo mật.
+Ví dụ: Trong OAuth 2.0, AccessToken được sử dụng để truy cập tài nguyên được bảo vệ.
+
+RefreshToken:
+Mục Đích: Là một loại token được sử dụng để đổi lấy AccessToken mới khi AccessToken đã hết hạn. RefreshToken giúp tránh việc người dùng 
+phải đăng nhập lại mỗi khi AccessToken hết hạn.
+Ví dụ: Sau khi AccessToken hết hạn, client có thể sử dụng RefreshToken để yêu cầu một AccessToken mới mà không cần phải đăng nhập lại.  
